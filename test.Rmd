@@ -20,5 +20,7 @@ According to [this Travis CI documentation](https://docs.travis-ci.com/user/cust
 Importantly, the subdataset needs to be added using `https` and not `ssh`, i.e., I used:
 
 ```bash
-datalad clone --dataset . https://github.com/lnnrtwttkhn/bookdown-playground.git subdataset
+datalad clone --dataset . https://github.com/lnnrtwttkhn/bookdown-playground-subdataset.git subdataset
 ```
+
+**Edit** Actually, in this I create the subdataset locally first using `datalad create -d . -c text2git subdataset` and then added the GitHub remote `origin` afterwards using `datalad siblings add -s origin --url https://github.com/lnnrtwttkhn/bookdown-playground-subdataset.git`.
