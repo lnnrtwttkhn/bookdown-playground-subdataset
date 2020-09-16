@@ -9,6 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Nested subdataset
+
 ## `test.Rmd`
 
 This is the content of the `subdataset/test.Rmd` file in the root of the `/subdataset` repo (which is the same repo but just nested as a DataLad subdataset, aka. `git submodule`).
