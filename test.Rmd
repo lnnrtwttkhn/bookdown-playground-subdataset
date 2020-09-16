@@ -1,8 +1,7 @@
 ---
-title: "test"
+title: "Bookdown Playground"
 author: "Lennart Wittkuhn"
-date: "9/16/2020"
-output: html_document
+date: "`r Sys.Date()`"
 ---
 
 ```{r, include=FALSE}
